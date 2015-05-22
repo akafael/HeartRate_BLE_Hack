@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res"><file path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file name="tible" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/tible.png" qualifiers="hdpi-v4" type="drawable"/><file name="sym_keyboard_allleft" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/sym_keyboard_allleft.png" qualifiers="hdpi-v4" type="drawable"/><file name="sym_keyboard_allright" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/sym_keyboard_allright.png" qualifiers="hdpi-v4" type="drawable"/><file name="sym_keyboard_right" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/sym_keyboard_right.png" qualifiers="hdpi-v4" type="drawable"/><file name="sym_keyboard_delete" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/sym_keyboard_delete.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="sym_keyboard_return" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/sym_keyboard_return.png" qualifiers="hdpi-v4" type="drawable"/><file name="sym_keyboard_done" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/sym_keyboard_done.png" qualifiers="hdpi-v4" type="drawable"/><file name="hex" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/hex.png" qualifiers="hdpi-v4" type="drawable"/><file name="bluetooth" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/bluetooth.png" qualifiers="hdpi-v4" type="drawable"/><file name="sym_keyboard_left" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/sym_keyboard_left.png" qualifiers="hdpi-v4" type="drawable"/><file name="list_item_normal" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/list_item_normal.xml" qualifiers="hdpi-v4" type="drawable"/><file name="txt" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-hdpi/txt.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="list_gradient" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/xml/list_gradient.xml" qualifiers="" type="xml"/><file name="popup" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/xml/popup.xml" qualifiers="" type="xml"/><file name="hexkbd" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/xml/hexkbd.xml" qualifiers="" type="xml"/><file name="gatt_uuid" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/xml/gatt_uuid.xml" qualifiers="" type="xml"/><file path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/values/styles.xml" qualifiers=""><style name="nameStyle">
+        <item name="android:textColor">#3cf</item>
+        <item name="android:textSize">18dp</item>
+    </style><style name="statusStyleSmall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">14dp</item>
+    </style><style name="devaddrStyle">
+        <item name="android:textColor">#eee</item>
+        <item name="android:textSize">16dp</item>
+    </style><style name="dataStyle2">
+        <item name="android:textColor">#f33</item>
+        <item name="android:textSize">16dp</item>
+    </style><style name="dataStyle1">
+        <item name="android:textColor">#3f3</item>
+        <item name="android:textSize">16dp</item>
+    </style><style name="statusStyle.Busy" parent="statusStyle">
+        <item name="android:textColor">#EEEEEE</item>
+    </style><style name="statusStyle.Disabled" parent="statusStyle">
+        <item name="android:textColor">#999999</item>
+        <item name="android:gravity">right</item>
+    </style><style name="nameStyleSelected">
+        <item name="android:textColor">#4f4</item>
+    </style><style name="listItemStyle">
+        <item name="android:background">@drawable/list_item_normal</item>
+        <item name="android:padding">8dp</item>
+    </style><style name="rssiStyle">
+        <item name="android:textColor">#ff0</item>
+        <item name="android:textSize">16dp</item>
+    </style><style name="tbStartStyle">
+        <item name="android:textSize">16dp</item>
+    </style><style name="dataStyle">
+        <item name="android:background">#333</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#4f4</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:padding">8dp</item>
+    </style><style name="checkboxStyle.Disabled" parent="checkboxStyle"/><style name="infoStyle">
+        <item name="android:textColor">#3f3</item>
+        <item name="android:textSize">14dp</item>
+    </style><style name="tabwidgetStyle">
+        <item name="android:background">#336</item>
+    </style><style name="toastStyle">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18dp</item>
+    </style><style name="uuidStyle">
+        <item name="android:textColor">#cde</item>
+        <item name="android:textSize">14dp</item>
+    </style><style name="nameStyle.inactive">
+        <item name="android:textColor">#ccc</item>
+    </style><style name="logStyle">
+        <item name="android:background">#66AABBBB</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+    </style><style name="devlistStyle">
+        <item name="android:dividerHeight">0dp</item>
+    </style><style name="statusStyle.Success" parent="statusStyle">
+        <item name="android:textColor">#33CCFF</item>
+    </style><style name="dirStyle">
+        <item name="android:textColor">#ff3</item>
+				<item name="android:textSize">20dp</item>
+				<item name="android:layout_margin">10dp</item>
+				<item name="android:gravity">center_horizontal</item>
+    </style><style name="statusStyle.Failure" parent="statusStyle">
+        <item name="android:textColor">#FF0000</item>
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="statusStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">18dp</item>
+    </style><style name="checkboxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Black">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+        -->
+    </style><style name="aboutStyle">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:textColor">#ff0</item>
+        <item name="android:textSize">14dp</item>
+    </style></file><file path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/values/strings.xml" qualifiers=""><string name="title_device_list">Device List</string><string name="write_hint">Tap here to enter new value</string><string name="idle">idle</string><string name="start_prog">Start programming</string><string name="btn_txtRead">Read</string><string name="header">Available BLE Devices</string><string name="bt_on">Bluetooth was turned  on</string><string name="no_image">Not an OAD image</string><string name="license">License</string><string name="btn_txtNotify">Notifications</string><string name="control">Done</string><string name="exit">Exit</string><string name="device">Device</string><string name="sthome">SensorTag Home</string><string name="cur_image">Current image:</string><string name="new_image">New image:</string><string name="button_scan">Scan</string><string name="tie2e">TI E2E Community</string><string name="app_closing">Exiting BLE DeviceMonitor</string><string name="bt_not_supported">Bluetooth is not supported</string><string name="about">About</string><string name="disconnected">Device is not connected</string><string name="bt_not_on">Bluetooth was not turned on</string><string name="prog_ogoing">NB! Not permitted to close this view during OAD transfer</string><string name="app_name">Health Monitor</string><string name="bt">Bluetooth</string><string name="cancel">Cancel</string><string name="no_image_sel">No image selected</string><string name="title_oad">Firmware update (OAD)</string><string name="ble_not_supported">BLE is not supported</string><string name="dev_addr">Device address</string><string-array name="device_filter"/><string name="btn_txtWrite">Write</string><string name="load_image_c">Custom</string><string name="load_image_b">Image B</string><string name="btn_txt_confirm">Confirm</string><string name="fwupdate">Firmware update</string><string name="load_image_a">Image A</string></file><file name="ic_launcher" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="device_activity_actions" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/menu/device_activity_actions.xml" qualifiers="" type="menu"/><file name="main_activity_actions" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/menu/main_activity_actions.xml" qualifiers="" type="menu"/><file name="fragment_help" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/fragment_help.xml" qualifiers="" type="layout"/><file name="history_layout" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/history_layout.xml" qualifiers="" type="layout"/><file name="fragment_service" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/fragment_service.xml" qualifiers="" type="layout"/><file name="fragment_scan" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/fragment_scan.xml" qualifiers="" type="layout"/><file name="element_service" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/element_service.xml" qualifiers="" type="layout"/><file name="element_file" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/element_file.xml" qualifiers="" type="layout"/><file name="fragment_pager" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/fragment_pager.xml" qualifiers="" type="layout"/><file name="display_layout" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/display_layout.xml" qualifiers="" type="layout"/><file name="element_device" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/element_device.xml" qualifiers="" type="layout"/><file name="dialog_license" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/dialog_license.xml" qualifiers="" type="layout"/><file name="element_characteristic" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/element_characteristic.xml" qualifiers="" type="layout"/><file name="fragment_info" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/fragment_info.xml" qualifiers="" type="layout"/><file name="dialog_about" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/dialog_about.xml" qualifiers="" type="layout"/><file name="fragment_device" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/fragment_device.xml" qualifiers="" type="layout"/><file name="activity_file" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/activity_file.xml" qualifiers="" type="layout"/><file name="heart_rate_display" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/heart_rate_display.xml" qualifiers="" type="layout"/><file name="activity_fwupdate" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/activity_fwupdate.xml" qualifiers="" type="layout"/><file path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file name="ic_launcher" path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/></source><source path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/build/generated/res/rs/debug"/><source path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/debug/res"/></dataSet><mergedItems/></merger>
