@@ -145,9 +145,9 @@ public class MainActivity extends ViewPagerActivity {
 
 		// Create the fragments and add them to the view pager and tabs
 		mScanView = new ScanView();
-		mHistoryView= new HistoryView();
+	//	mHistoryView= new HistoryView();
 		mSectionsPagerAdapter.addSection(mScanView, "BLE Device List");
-		mSectionsPagerAdapter.addSection(mHistoryView,"History");
+		//mSectionsPagerAdapter.addSection(mHistoryView,"History");
 		mSectionsPagerAdapter.addSection(new HelpView("help_scan.html",
 		    R.layout.fragment_help, R.id.webpage), "Help");
 

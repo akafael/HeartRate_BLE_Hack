@@ -19,4 +19,4 @@
         android:id="@+id/opt_exit"
         android:title="@string/exit"/>
 
-</menu><!-- From: file:/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/menu/main_activity_actions.xml -->
+</menu><!-- From: file:/C:/Users/ShibyMary/StudioProjects/HeartRate_BLE_Hack/app/src/main/res/menu/main_activity_actions.xml -->

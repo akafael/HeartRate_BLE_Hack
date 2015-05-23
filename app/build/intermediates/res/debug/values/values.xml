@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/ShibyMary/StudioProjects/HeartRate_BLE_Hack/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="device_filter"/>
     <string name="about">About</string>
@@ -40,7 +40,7 @@
     <string name="title_device_list">Device List</string>
     <string name="title_oad">Firmware update (OAD)</string>
     <string name="write_hint">Tap here to enter new value</string>
-    <!-- From: file:/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/ShibyMary/StudioProjects/HeartRate_BLE_Hack/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Black">
         <!--

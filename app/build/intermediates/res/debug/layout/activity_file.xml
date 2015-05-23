@@ -29,4 +29,4 @@
         android:onClick="onConfirm"
         android:text="@string/btn_txt_confirm" />
 
-</LinearLayout><!-- From: file:/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/layout/activity_file.xml -->
+</LinearLayout><!-- From: file:/C:/Users/ShibyMary/StudioProjects/HeartRate_BLE_Hack/app/src/main/res/layout/activity_file.xml -->

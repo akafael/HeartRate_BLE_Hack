@@ -45,4 +45,4 @@
         <Key android:codes="55005" android:keyLabel="NEXT" android:keyEdgeFlags="right" />
          -->
     </Row>
-</Keyboard><!-- From: file:/home/rafael/AndroidStudioProjects/Heart_Rate_BLE_Hack/app/src/main/res/xml/hexkbd.xml -->
+</Keyboard><!-- From: file:/C:/Users/ShibyMary/StudioProjects/HeartRate_BLE_Hack/app/src/main/res/xml/hexkbd.xml -->
