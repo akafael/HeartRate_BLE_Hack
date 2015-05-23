@@ -29,6 +29,7 @@ public final class R {
         public static final int txt=0x7f02000c;
     }
     public static final class id {
+        public static final int acknowledgement=0x7f090034;
         public static final int address=0x7f090017;
         public static final int btn_confirm=0x7f090002;
         public static final int btn_load_a=0x7f090005;
@@ -53,15 +54,13 @@ public final class R {
         public static final int info=0x7f090016;
         public static final int info_web=0x7f09001f;
         public static final int keyboardview=0x7f090028;
+        public static final int labhome=0x7f090033;
         public static final int lw_file=0x7f090001;
         public static final int name=0x7f090014;
         public static final int opt_about=0x7f090031;
         public static final int opt_bt=0x7f090032;
-        public static final int opt_e2e=0x7f090033;
-        public static final int opt_exit=0x7f090036;
+        public static final int opt_exit=0x7f090035;
         public static final int opt_fwupdate=0x7f090030;
-        public static final int opt_license=0x7f090035;
-        public static final int opt_sthome=0x7f090034;
         public static final int pager=0x7f090020;
         public static final int pb_busy=0x7f09001b;
         public static final int pb_progress=0x7f090009;
@@ -89,7 +88,7 @@ public final class R {
         public static final int activity_file=0x7f030000;
         public static final int activity_fwupdate=0x7f030001;
         public static final int dialog_about=0x7f030002;
-        public static final int dialog_license=0x7f030003;
+        public static final int dialog_acknowledgement=0x7f030003;
         public static final int display_layout=0x7f030004;
         public static final int element_characteristic=0x7f030005;
         public static final int element_device=0x7f030006;
@@ -110,42 +109,41 @@ public final class R {
     }
     public static final class string {
         public static final int about=0x7f060000;
-        public static final int app_closing=0x7f060001;
-        public static final int app_name=0x7f060002;
-        public static final int ble_not_supported=0x7f060003;
-        public static final int bt=0x7f060004;
-        public static final int bt_not_on=0x7f060005;
-        public static final int bt_not_supported=0x7f060006;
-        public static final int bt_on=0x7f060007;
-        public static final int btn_txtNotify=0x7f060008;
-        public static final int btn_txtRead=0x7f060009;
-        public static final int btn_txtWrite=0x7f06000a;
-        public static final int btn_txt_confirm=0x7f06000b;
-        public static final int button_scan=0x7f06000c;
-        public static final int cancel=0x7f06000d;
-        public static final int control=0x7f06000e;
-        public static final int cur_image=0x7f06000f;
-        public static final int dev_addr=0x7f060010;
-        public static final int device=0x7f060011;
-        public static final int disconnected=0x7f060012;
-        public static final int exit=0x7f060013;
-        public static final int fwupdate=0x7f060014;
-        public static final int header=0x7f060015;
-        public static final int idle=0x7f060016;
-        public static final int license=0x7f060017;
-        public static final int load_image_a=0x7f060018;
-        public static final int load_image_b=0x7f060019;
-        public static final int load_image_c=0x7f06001a;
-        public static final int new_image=0x7f06001b;
-        public static final int no_image=0x7f06001c;
-        public static final int no_image_sel=0x7f06001d;
-        public static final int prog_ogoing=0x7f06001e;
-        public static final int start_prog=0x7f06001f;
-        public static final int sthome=0x7f060020;
-        public static final int tie2e=0x7f060021;
-        public static final int title_device_list=0x7f060022;
-        public static final int title_oad=0x7f060023;
-        public static final int write_hint=0x7f060024;
+        public static final int acknowledgement=0x7f060001;
+        public static final int app_closing=0x7f060002;
+        public static final int app_name=0x7f060003;
+        public static final int ble_not_supported=0x7f060004;
+        public static final int bt=0x7f060005;
+        public static final int bt_not_on=0x7f060006;
+        public static final int bt_not_supported=0x7f060007;
+        public static final int bt_on=0x7f060008;
+        public static final int btn_txtNotify=0x7f060009;
+        public static final int btn_txtRead=0x7f06000a;
+        public static final int btn_txtWrite=0x7f06000b;
+        public static final int btn_txt_confirm=0x7f06000c;
+        public static final int button_scan=0x7f06000d;
+        public static final int cancel=0x7f06000e;
+        public static final int control=0x7f06000f;
+        public static final int cur_image=0x7f060010;
+        public static final int dev_addr=0x7f060011;
+        public static final int device=0x7f060012;
+        public static final int disconnected=0x7f060013;
+        public static final int exit=0x7f060014;
+        public static final int fwupdate=0x7f060015;
+        public static final int header=0x7f060016;
+        public static final int idle=0x7f060017;
+        public static final int labhome=0x7f060018;
+        public static final int load_image_a=0x7f060019;
+        public static final int load_image_b=0x7f06001a;
+        public static final int load_image_c=0x7f06001b;
+        public static final int new_image=0x7f06001c;
+        public static final int no_image=0x7f06001d;
+        public static final int no_image_sel=0x7f06001e;
+        public static final int prog_ogoing=0x7f06001f;
+        public static final int start_prog=0x7f060020;
+        public static final int title_device_list=0x7f060021;
+        public static final int title_oad=0x7f060022;
+        public static final int write_hint=0x7f060023;
     }
     public static final class style {
         /** 

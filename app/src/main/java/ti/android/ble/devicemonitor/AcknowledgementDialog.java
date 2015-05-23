@@ -1,5 +1,5 @@
 /**************************************************************************************************
-  Filename:       LicenseDialog.java
+  Filename:       AcknowledgementDialog.java
   Revised:        $Date: 2014-01-07 16:17:34 +0100 (ti, 07 jan 2014) $
   Revision:       $Revision: 28784 $
 
@@ -42,11 +42,11 @@ import android.view.Window;
 import android.webkit.WebView;
 import android.widget.Button;
 
-public class LicenseDialog extends Dialog {
-	private static LicenseDialog mDialog;
+public class AcknowledgementDialog extends Dialog {
+	private static AcknowledgementDialog mDialog;
 	private static OkListener mOkListener;
 
-	public LicenseDialog(Context context) {
+	public AcknowledgementDialog(Context context) {
 		super(context);
 		mDialog = this;
 		mOkListener = new OkListener();
@@ -55,11 +55,11 @@ public class LicenseDialog extends Dialog {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.dialog_license);
+		setContentView(R.layout.dialog_acknowledgement);
 
-		// From license.html web page
+		// From acknowledgements.html web page
 		WebView wv = (WebView) findViewById(R.id.webpage_license);
-		wv.loadUrl("file:///android_asset/license.html");
+		wv.loadUrl("file:///android_asset/acknowledgements.html");
 
 		// Dismiss button
 		Button okButton = (Button) findViewById(R.id.buttonOK);

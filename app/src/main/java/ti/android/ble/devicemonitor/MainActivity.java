@@ -39,7 +39,6 @@ import java.util.List;
 
 import ti.android.ble.common.BleDeviceInfo;
 import ti.android.ble.common.BluetoothLeService;
-import ti.android.ble.common.HelpView;
 import ti.android.util.CustomToast;
 import android.app.Activity;
 import android.app.Dialog;
@@ -71,10 +70,8 @@ public class MainActivity extends ViewPagerActivity {
 	private static final String TAG = "MainActivity";
 
 	// URLs
-	private static final Uri URL_FORUM = Uri
-	    .parse("http://e2e.ti.com/support/low_power_rf/default.aspx?DCMP=hpa_hpa_community&HQS=NotApplicable+OT+lprf-forum");
-	private static final Uri URL_STHOME = Uri
-	    .parse("http://www.ti.com/ww/en/wireless_connectivity/sensortag/index.shtml?INTC=SensorTag&HQS=sensortag");
+	private static final Uri URL_LABHOME = Uri
+	    .parse("http://microfluidics.wayne.edu");
 
 	// Requests to other activities
 	private static final int REQ_ENABLE_BT = 0;
@@ -148,8 +145,7 @@ public class MainActivity extends ViewPagerActivity {
 	//	mHistoryView= new HistoryView();
 		mSectionsPagerAdapter.addSection(mScanView, "BLE Device List");
 		//mSectionsPagerAdapter.addSection(mHistoryView,"History");
-		mSectionsPagerAdapter.addSection(new HelpView("help_scan.html",
-		    R.layout.fragment_help, R.id.webpage), "Help");
+
 
 		// Register the BroadcastReceiver
 		mFilter = new IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED);
@@ -188,13 +184,11 @@ public class MainActivity extends ViewPagerActivity {
 		case R.id.opt_bt:
 			onBluetooth();
 			break;
-		case R.id.opt_e2e:
-			onUrl(URL_FORUM);
+
+		case R.id.labhome:
+			onUrl(URL_LABHOME);
 			break;
-		case R.id.opt_sthome:
-			onUrl(URL_STHOME);
-			break;
-		case R.id.opt_license:
+		case R.id.acknowledgement:
 			onLicense();
 			break;
 		case R.id.opt_about:
@@ -221,7 +215,7 @@ public class MainActivity extends ViewPagerActivity {
 	}
 
 	private void onLicense() {
-		final Dialog dialog = new LicenseDialog(this);
+		final Dialog dialog = new AcknowledgementDialog(this);
 		dialog.show();
 	}
 

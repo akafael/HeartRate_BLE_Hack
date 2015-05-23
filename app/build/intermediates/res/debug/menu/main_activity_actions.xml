@@ -3,15 +3,12 @@
      <item
         android:id="@+id/opt_bt"
         android:title="@string/bt"/>
+     <item
+        android:id="@+id/labhome"
+        android:title="@string/labhome"/>
     <item
-        android:id="@+id/opt_e2e"
-        android:title="@string/tie2e"/>
-    <item
-        android:id="@+id/opt_sthome"
-        android:title="@string/sthome"/>
-    <item
-        android:id="@+id/opt_license"
-        android:title="@string/license"/>
+        android:id="@+id/acknowledgement"
+        android:title="@string/acknowledgement"/>
     <item
         android:id="@+id/opt_about"
         android:title="@string/about"/>

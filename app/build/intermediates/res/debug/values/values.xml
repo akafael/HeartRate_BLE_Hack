@@ -4,6 +4,7 @@
     <eat-comment/>
     <string-array name="device_filter"/>
     <string name="about">About</string>
+    <string name="acknowledgement">Acknowledgement</string>
     <string name="app_closing">Exiting BLE DeviceMonitor</string>
     <string name="app_name">Health Monitor</string>
     <string name="ble_not_supported">BLE is not supported</string>
@@ -26,7 +27,7 @@
     <string name="fwupdate">Firmware update</string>
     <string name="header">Available BLE Devices</string>
     <string name="idle">idle</string>
-    <string name="license">License</string>
+    <string name="labhome">WSU MB Lab</string>
     <string name="load_image_a">Image A</string>
     <string name="load_image_b">Image B</string>
     <string name="load_image_c">Custom</string>
@@ -35,8 +36,6 @@
     <string name="no_image_sel">No image selected</string>
     <string name="prog_ogoing">NB! Not permitted to close this view during OAD transfer</string>
     <string name="start_prog">Start programming</string>
-    <string name="sthome">SensorTag Home</string>
-    <string name="tie2e">TI E2E Community</string>
     <string name="title_device_list">Device List</string>
     <string name="title_oad">Firmware update (OAD)</string>
     <string name="write_hint">Tap here to enter new value</string>

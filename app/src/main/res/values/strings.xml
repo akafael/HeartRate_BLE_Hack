@@ -18,10 +18,9 @@
     
     <!-- Options menu -->
     <string name="fwupdate">Firmware update</string>
-    <string name="sthome">SensorTag Home</string>
-    <string name="tie2e">TI E2E Community</string>
+    <string name="labhome">WSU MB Lab</string>
     <string name="bt">Bluetooth</string>
-    <string name="license">License</string>
+    <string name="acknowledgement">Acknowledgement</string>
     <string name="about">About</string>
     <string name="exit">Exit</string>
     
