@@ -29,7 +29,7 @@ public final class R {
         public static final int txt=0x7f02000c;
     }
     public static final class id {
-        public static final int acknowledgement=0x7f090034;
+        public static final int acknowledgement=0x7f090033;
         public static final int address=0x7f090017;
         public static final int btn_confirm=0x7f090002;
         public static final int btn_load_a=0x7f090005;
@@ -40,11 +40,11 @@ public final class R {
         public static final int btn_scan=0x7f090023;
         public static final int btn_start=0x7f09000b;
         public static final int btn_write=0x7f09002a;
-        public static final int button1=0x7f09002e;
+        public static final int button1=0x7f09002d;
         public static final int buttonOK=0x7f090010;
         public static final int char_list=0x7f090025;
         public static final int chart_container=0x7f090013;
-        public static final int chart_container1=0x7f09002f;
+        public static final int chart_container1=0x7f09002e;
         public static final int device_address=0x7f090019;
         public static final int device_list=0x7f090021;
         public static final int device_status=0x7f09001c;
@@ -54,21 +54,20 @@ public final class R {
         public static final int info=0x7f090016;
         public static final int info_web=0x7f09001f;
         public static final int keyboardview=0x7f090028;
-        public static final int labhome=0x7f090033;
+        public static final int labhome=0x7f090032;
         public static final int lw_file=0x7f090001;
         public static final int name=0x7f090014;
-        public static final int opt_about=0x7f090031;
-        public static final int opt_bt=0x7f090032;
-        public static final int opt_exit=0x7f090035;
-        public static final int opt_fwupdate=0x7f090030;
+        public static final int opt_about=0x7f090030;
+        public static final int opt_bt=0x7f090031;
+        public static final int opt_exit=0x7f090034;
+        public static final int opt_fwupdate=0x7f09002f;
         public static final int pager=0x7f090020;
         public static final int pb_busy=0x7f09001b;
         public static final int pb_progress=0x7f090009;
         public static final int rssi=0x7f090018;
         public static final int service_list=0x7f09001a;
         public static final int status=0x7f090022;
-        public static final int textView1=0x7f09002d;
-        public static final int textView2=0x7f09002c;
+        public static final int textView1=0x7f09002c;
         public static final int title=0x7f09000c;
         public static final int toast_layout_root=0x7f09001e;
         public static final int tw_directory=0x7f090000;
@@ -100,8 +99,7 @@ public final class R {
         public static final int fragment_pager=0x7f03000c;
         public static final int fragment_scan=0x7f03000d;
         public static final int fragment_service=0x7f03000e;
-        public static final int heart_rate_display=0x7f03000f;
-        public static final int history_layout=0x7f030010;
+        public static final int history_layout=0x7f03000f;
     }
     public static final class menu {
         public static final int device_activity_actions=0x7f080000;

@@ -71,10 +71,8 @@ public class ServiceActivity extends ViewPagerActivity
 
 	// GUI
 	private ServiceView mServiceView = null;
-	private InfoView mInfoView = null;
 	private HelpView mHelpView = null;
 	private Display mDisplay=null;
-	private Heart_Rate mHeart_Rate=null;
 
 	// BLE
 	//This is the variable that stores the service which was selected
@@ -123,18 +121,14 @@ public class ServiceActivity extends ViewPagerActivity
 
 		// Create multiple views and add them to the view pager and tabs
 		mServiceView = new ServiceView();
-		mInfoView = new InfoView(this);
 		mHelpView = new HelpView("help_device.html", R.layout.fragment_help,
 		    R.id.webpage);
 		mDisplay=new Display();
-		mHeart_Rate=new Heart_Rate();
 		//These tabs are added here since, they need to be displayed once the user
 		//clicks on one of the services
 		mSectionsPagerAdapter.addSection(mServiceView, "Characteristics");
-		mSectionsPagerAdapter.addSection(mInfoView, "Info");
 		mSectionsPagerAdapter.addSection(mHelpView, "Help");
 		mSectionsPagerAdapter.addSection(mDisplay, "PPG Wave Form");
-		mSectionsPagerAdapter.addSection(mHeart_Rate,"Heart Rate Display");
 	}
 
 	@Override
@@ -151,7 +145,6 @@ public class ServiceActivity extends ViewPagerActivity
 	public void onDestroy() {
 		Log.d(TAG, "onDestroy");
 		mServiceView = null;
-		mInfoView = null;
 		mService = null;
 		mHelpView = null;
 		mDisplay=null;
@@ -211,8 +204,7 @@ public class ServiceActivity extends ViewPagerActivity
 							
 	/* To check if heart rate can be displayed in another textview 
 	of another fragment*/
-	        	  mHeart_Rate.setValue(value);
-			  
+
 
     /*We can check if the graph will plot by plotting random values				 
      * every time we get a notification
@@ -265,7 +257,6 @@ public class ServiceActivity extends ViewPagerActivity
 		}
 	}
 
-	
 	void onInfoViewReady(View v) {
 		// Update GATT view
 		if (mServiceView != null) {
@@ -297,7 +288,6 @@ public class ServiceActivity extends ViewPagerActivity
 			html += descr;
 		}
 		html += "</body>";
-		mInfoView.setHtml(html);
 	}
 
 	private void setError(int status) {
