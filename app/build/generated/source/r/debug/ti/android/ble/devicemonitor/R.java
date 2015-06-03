@@ -15,18 +15,19 @@ public final class R {
     }
     public static final class drawable {
         public static final int bluetooth=0x7f020000;
-        public static final int hex=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int list_item_normal=0x7f020003;
-        public static final int sym_keyboard_allleft=0x7f020004;
-        public static final int sym_keyboard_allright=0x7f020005;
-        public static final int sym_keyboard_delete=0x7f020006;
-        public static final int sym_keyboard_done=0x7f020007;
-        public static final int sym_keyboard_left=0x7f020008;
-        public static final int sym_keyboard_return=0x7f020009;
-        public static final int sym_keyboard_right=0x7f02000a;
-        public static final int tible=0x7f02000b;
-        public static final int txt=0x7f02000c;
+        public static final int heart=0x7f020001;
+        public static final int hex=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int list_item_normal=0x7f020004;
+        public static final int sym_keyboard_allleft=0x7f020005;
+        public static final int sym_keyboard_allright=0x7f020006;
+        public static final int sym_keyboard_delete=0x7f020007;
+        public static final int sym_keyboard_done=0x7f020008;
+        public static final int sym_keyboard_left=0x7f020009;
+        public static final int sym_keyboard_return=0x7f02000a;
+        public static final int sym_keyboard_right=0x7f02000b;
+        public static final int tible=0x7f02000c;
+        public static final int txt=0x7f02000d;
     }
     public static final class id {
         public static final int acknowledgement=0x7f090033;
