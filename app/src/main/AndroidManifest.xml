@@ -15,7 +15,7 @@
     
     <application
         android:allowBackup="false"
-        android:icon="@drawable/tible"
+        android:icon="@drawable/heart"
         android:label="@string/app_name" >
         <service
             android:name="ti.android.ble.common.BluetoothLeService"
