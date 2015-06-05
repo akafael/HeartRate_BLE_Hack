@@ -6,5 +6,4 @@
     <item
         android:id="@+id/opt_about"
         android:title="@string/about"/>
-
 </menu><!-- From: file:/C:/Users/ShibyMary/StudioProjects/HeartRate_BLE_Hack/app/src/main/res/menu/device_activity_actions.xml -->

@@ -82,6 +82,7 @@ public class ViewPagerActivity extends FragmentActivity {
 
 		// Set up the ViewPager with the sections adapter.
 		mViewPager = (ViewPager) findViewById(mResourceIdPager);
+
 		mViewPager
 		    .setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
 			    @Override

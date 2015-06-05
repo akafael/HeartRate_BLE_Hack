@@ -95,9 +95,11 @@ public class AboutDialog extends Dialog {
 		// Device information
 		TextView foot = (TextView) findViewById(R.id.footer);
 		String txt = Build.MANUFACTURER.toUpperCase() + " " + Build.MODEL
-		    + " Android " + Build.VERSION.RELEASE + " " + Build.DISPLAY;
+		    + " Android " + Build.VERSION.RELEASE + " " + Build.DISPLAY+"Shiby is Awesome";
 
-		foot.setText(txt);
+		//About our lab
+		String text="The Health Monitor App belongs to MB Lab :) ";
+		foot.setText(text);
 	}
 
 	private class OkListener implements android.view.View.OnClickListener {
