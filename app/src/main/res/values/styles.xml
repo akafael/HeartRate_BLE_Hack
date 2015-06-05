@@ -61,7 +61,7 @@
         <item name="android:padding">8dp</item>
     </style>
 
-  
+
     <!-- The name of the device -->
     <style name="nameStyle">
         <item name="android:textColor">#ff08ab36</item>
