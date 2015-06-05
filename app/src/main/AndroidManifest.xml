@@ -16,10 +16,7 @@
     <application
         android:allowBackup="false"
         android:icon="@drawable/tible"
-        android:label="@string/app_name"
-        android:theme="@style/AppBaseTheme">
-        <!--The above line is to modify and style the app -->
-
+        android:label="@string/app_name" >
         <service
             android:name="ti.android.ble.common.BluetoothLeService"
             android:enabled="true" />
